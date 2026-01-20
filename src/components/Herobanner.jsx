@@ -1,6 +1,6 @@
 import "../css/herobanner.scss";
 
-export default function Hero() {
+export default function HeroBanner () {
   return (
     <section className="hero">      
         <div className="hero-content">
