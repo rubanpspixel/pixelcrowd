@@ -1,0 +1,41 @@
+
+@charset "UTF-8";
+/**DO NOT EDIT**/ 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th {	padding:0;order:0;outline:0;font-size:100%;background: transparent;	margin: 0px;}html{ width:100%; display:inline-block;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}:focus {outline: 0;}li{ list-style: none}ins {text-decoration: none;}del {text-decoration: line-through;}table {border-collapse:collapse;border-spacing:0;}.clear {clear: both;height:0;overflow:hidden}.clearfix {display:inline-block; width:100%}html, body {    max-width: 100%;   }figure, figcaption{ margin: 0; padding: 0}svg {overflow: hidden;vertical-align: middle;}*, *::before, *::after {  box-sizing: border-box;}
+a, a:hover{ text-decoration:none}::-moz-selection { color: #fff; background:#0B1320;}::selection { color: #fff;  background:#0B1320;}
+
+@mixin font-face($font-name, $file-name, $weight: normal, $style: normal) { @font-face { font-family: quote($font-name); src: url('../fonts/' + $file-name + '.eot'); src: url('../fonts/' + $file-name + '.eot?#iefix')  format('embedded-opentype'), url('../fonts/' + $file-name + '.woff2') format('woff2'),  url('../fonts/' + $file-name + '.woff') format('woff'),  url('../fonts/' + $file-name + '.ttf')  format('truetype'); font-weight: $weight; font-style: $style;  }} 
+@include font-face(pc_Light, gordita-light-webfont); @include font-face(pc_Regular, gordita-regular-webfont);@include font-face(pc_Medium, gordita-medium-webfont); @include font-face(pc_Bold, gordita-bold-webfont);
+@mixin font_light{font-family: 'pc_light';}@mixin font_regular{font-family: 'pc_Regular';}@mixin font_medium{font-family: 'pc_Medium';}@mixin font_bold{font-family: 'pc_Bold';}
+
+
+
+// @mixin font-face($font-name, $file-name, $weight: normal, $style: normal) { @font-face { font-family: quote($font-name); src: url('../fonts/' + $file-name + '.eot'); 	src: url('../fonts/' + $file-name + '.eot?#iefix')  format('embedded-opentype'), 		url('../fonts/' + $file-name + '.woff2') format('woff2'),  url('../fonts/' + $file-name + '.woff') format('woff'),  url('../fonts/' + $file-name + '.ttf')  format('truetype'); font-weight: $weight; font-style: $style;  }} 
+// @include font-face(pc_Light, pc_light); @include font-face(pc_Regular, pc_regular);@include font-face(pc_Medium, pc_medium); @include font-face(pc_Bold, pc_Bold);
+// @mixin font_light{font-family: 'pc_light';}@mixin font_regular{font-family: 'pc_Regular';}@mixin font_medium{font-family: 'pc_Medium';}@mixin font_bold{font-family: 'pc_Bold';}
+
+@mixin flexgr{ display: flex; gap:20px}
+@mixin one_grid{ @include dis_grid();grid-template-columns: 1fr}@mixin two_grid{ @include dis_grid();grid-template-columns: repeat(2, 1fr); }
+@mixin three_grid{ @include dis_grid();grid-template-columns: repeat(3, 1fr);}@mixin four_grid{ @include dis_grid();grid-template-columns: repeat(4, 1fr);}
+@mixin five_grid{ @include dis_grid();grid-template-columns: repeat(5, 1fr);}@mixin six_grid{ @include dis_grid();grid-template-columns: repeat(6, 1fr);}
+@mixin seven_grid{ @include dis_grid();grid-template-columns: repeat(7, 1fr);}@mixin eight_grid{ @include dis_grid();grid-template-columns: repeat(8, 1fr);}
+@mixin nine_grid{ @include dis_grid();grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));}@mixin dis_grid{ display: grid; gap: 30px;}
+@mixin flex-standard($justify: null, $align: null, $wrap: null, $direction: null){ display: flex; justify-content:$justify; align-items:$align; flex-wrap:$wrap; flex-direction:$direction}
+@mixin grid($rows: null, $columns: null, $gap: null, $row-gap: null, $column-gap: null) {@include dis_grid;gap: $gap;row-gap: $row-gap;column-gap: $column-gap; grid-template-rows: $rows; grid-template-columns: $columns; /*@include grid(repeat(2, 1fr), repeat(3, 1fr)); */}
+@mixin pseudo($left: null, $right: null, $top: null, $bottom: null, $width: null, $height: null){ content: ''; position: absolute;width: $width; height: $height;left:$left; right:$right; top:$top; bottom:$bottom}
+@mixin smooth{-webkit-transition: 0.5s ease; -moz-transition: 0.5s ease;-ms-transition: 0.5s ease;-o-transition: 0.5s ease; transition: 0.5s ease;}
+@mixin centerWidth($center_width: null){ width: $center_width; margin-left:auto; margin-right:auto}
+
+:root{
+    --background: #f0f0f1;
+}
+
+.container{ max-inline-size:80vw; margin: auto;}.container-fluid{ max-inline-size:90vw; margin: auto;}
+.empty10 { height: 10px; }.empty20 { height: 20px; }.empty30 { height: 30px; }.empty40 {  height: 40px; }.empty50 { height: 50px; }.empty60 {  height: 60px; }.empty80 { height: 80px; }.empty100 { height: 100px; }.empty150 { height: 150px; }
+.four_grid{ @include four_grid()}.five_grid{ @include five_grid()}.six_grid{@include six_grid()}.seven_grid{ @include seven_grid()}.eight_grid{@include eight_grid()}.nine_grid{ @include nine_grid()}
+
+body{ //background: var(--background)
+
+    @include font_regular();
+
+ }

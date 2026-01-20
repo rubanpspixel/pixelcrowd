@@ -1,0 +1,21 @@
+@use "../App" as *;
+
+.hero{ @include centerWidth(80vw);
+  .hero-content{
+  h1 {font-size: 3rem; line-height: 1.2; @include font_medium();
+    span { color: #2563eb;}
+  }
+  p {  margin: 1rem 0 2rem;  font-size: 1.1rem;  color: #555;}
+}
+}
+
+ 
+
+
+ 
+ 
+
+@media (max-width: 768px) {
+.hero-actions { justify-content: center;}
+.hero-image { order: -1;}
+}
