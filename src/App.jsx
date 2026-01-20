@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.scss'
 import Header from "./components/Header";
-import Hero from './components/herobanner';
+import HeroBanner from "./components/herobanner";
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,7 @@ function App() {
        <>
     <Header />
        <main>
-        <Hero />
+        <HeroBanner />
        </main>
     </>
   )

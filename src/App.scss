@@ -1,10 +1,11 @@
 
 @charset "UTF-8";
+@use "sass:string";
 /**DO NOT EDIT**/ 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th {	padding:0;order:0;outline:0;font-size:100%;background: transparent;	margin: 0px;}html{ width:100%; display:inline-block;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}:focus {outline: 0;}li{ list-style: none}ins {text-decoration: none;}del {text-decoration: line-through;}table {border-collapse:collapse;border-spacing:0;}.clear {clear: both;height:0;overflow:hidden}.clearfix {display:inline-block; width:100%}html, body {    max-width: 100%;   }figure, figcaption{ margin: 0; padding: 0}svg {overflow: hidden;vertical-align: middle;}*, *::before, *::after {  box-sizing: border-box;}
 a, a:hover{ text-decoration:none}::-moz-selection { color: #fff; background:#0B1320;}::selection { color: #fff;  background:#0B1320;}
 
-@mixin font-face($font-name, $file-name, $weight: normal, $style: normal) { @font-face { font-family: quote($font-name); src: url('../fonts/' + $file-name + '.eot'); src: url('../fonts/' + $file-name + '.eot?#iefix')  format('embedded-opentype'), url('../fonts/' + $file-name + '.woff2') format('woff2'),  url('../fonts/' + $file-name + '.woff') format('woff'),  url('../fonts/' + $file-name + '.ttf')  format('truetype'); font-weight: $weight; font-style: $style;  }} 
+@mixin font-face($font-name, $file-name, $weight: normal, $style: normal) { @font-face { font-family: string.quote($font-name); src: url('../fonts/' + $file-name + '.eot'); src: url('../fonts/' + $file-name + '.eot?#iefix')  format('embedded-opentype'), url('../fonts/' + $file-name + '.woff2') format('woff2'),  url('../fonts/' + $file-name + '.woff') format('woff'),  url('../fonts/' + $file-name + '.ttf')  format('truetype'); font-weight: $weight; font-style: $style;  }} 
 @include font-face(pc_Light, gordita-light-webfont); @include font-face(pc_Regular, gordita-regular-webfont);@include font-face(pc_Medium, gordita-medium-webfont); @include font-face(pc_Bold, gordita-bold-webfont);
 @mixin font_light{font-family: 'pc_light';}@mixin font_regular{font-family: 'pc_Regular';}@mixin font_medium{font-family: 'pc_Medium';}@mixin font_bold{font-family: 'pc_Bold';}
 
