@@ -6,10 +6,11 @@ function App() {
   const [count, setCount] = useState(0)
   return (           
        <>
-    <Header />
+    {/* <Header />
        <main>
         <Herobanner />
-       </main>
+       </main> */}
+         <h1>Coming Soon</h1>
     </>
   )
 }
