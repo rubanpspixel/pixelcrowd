@@ -1,10 +1,12 @@
 @use "../App" as *;
 
-.header {position: sticky;top: 0;z-index: 100; @include flexgr();justify-content: center; align-items: center;color: #fff;
-  .grid{ @include flexgr(); justify-content: center; align-items: center;background: #000;margin: 10px 5vw 0 5vw; padding:15px 20px; border-radius: 70px;}
+.header {margin-top: 20px; //position: sticky;top: 0;z-index: 100; @include flexgr();justify-content: center; align-items: center;color: #fff;
+  //.grid{ @include flexgr(); justify-content: center; align-items: center;background: #000;margin: 10px 5vw 0 5vw; padding:15px 20px; border-radius: 70px;}
 }
-.logo { font-size: 1.4rem; font-weight: 700;}
+.logo { font-size: 1.4rem; font-weight: 700; color: #000;}
 .nav a { margin-left: 1.2rem; text-decoration: none; color: #fff; font-weight: 500;
   &:hover {  color: #2563eb;}
 }
+
+ 
  

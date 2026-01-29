@@ -7,10 +7,12 @@
   }
   p {  margin: 1rem 0 2rem;  font-size: 1.1rem;  color: #555;}
 }
+.container{grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));gap: 70px;align-items: center; display: grid;
+        img{ width:60%; height: auto;}
+    }
 }
 
  
-
 
  
  

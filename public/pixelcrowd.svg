@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 31.9 32">
+  <!-- Generator: Adobe Illustrator 30.1.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 136)  -->
+  <defs>
+    <linearGradient id="linear-gradient" x1="-5170.6" y1="3470" x2="-5170.6" y2="3470" gradientTransform="translate(5108316.5 1954400.5) rotate(-12.9) scale(878.3 -878.3)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#212121"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="-5133.5" y1="3475.4" x2="-5133.5" y2="3475.4" gradientTransform="translate(-963036.5 52016.5) rotate(142.8) scale(155.6 -155.6)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe053"/>
+      <stop offset="1" stop-color="#e8c63a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="-5171.6" y1="3465.9" x2="-5171.6" y2="3465.9" gradientTransform="translate(2559979.2 2299978.9) rotate(8.1) scale(552.8 -552.8)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient3" x1="-5115.7" y1="3467.1" x2="-5115.6" y2="3467.1" gradientTransform="translate(-614241.1 145900.5) rotate(132.5) scale(102.2 -102.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#212121"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient4" x1="-5152.5" y1="3505.5" x2="-5152.5" y2="3505.5" gradientTransform="translate(-355714.4 -686590.3) rotate(-151.6) scale(124.1 -124.1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#212121"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient5" x1="-5188.9" y1="3475.3" x2="-5188.9" y2="3475.3" gradientTransform="translate(1127146.3 -200598.7) rotate(-43.9) scale(183.3 -183.3)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient6" x1="-5173.6" y1="3474" x2="-5173.5" y2="3474" gradientTransform="translate(3818728.1 -1007613.6) rotate(-48.7) scale(633.8 -633.8)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient7" x1="-5189.4" y1="3475.3" x2="-5189.4" y2="3475.3" gradientTransform="translate(1237842.7 -277371.5) rotate(-46.4) scale(203.1 -203.1)" xlink:href="#linear-gradient"/>
+  </defs>
+  <path d="M13.6,5.6L1.7,9.8l16.2,5.1-4.3-9.3Z" fill="url(#linear-gradient)"/>
+  <path d="M27,7.5l.3,6.2-4.7-4.2,4.4-1.9Z" fill="url(#linear-gradient1)"/>
+  <path d="M15.3,2.9l-11.6.6,13.4,10.7-1.8-11.3Z" fill="url(#linear-gradient2)"/>
+  <path d="M27,7.5l3.3,3-3.1.2-.2-3.1Z" fill="url(#linear-gradient3)"/>
+  <path d="M21.1,15.8l-4.7,13.8-4.6.2,9.3-14.1Z" fill="url(#linear-gradient4)"/>
+  <path d="M14.8,28l-1.4-.7-1.7,2.6,3-1.8Z" fill="url(#linear-gradient5)"/>
+  <path d="M21.1,15.8l-12.7,12.5,6.5-.3,6.3-12.2Z" fill="url(#linear-gradient6)"/>
+  <path d="M15.9,14.3l2.5,9.2,3.2-3.6-5.8-5.6Z" fill="url(#linear-gradient7)"/>
+  <path d="M27.3,13.7l-5.6,6.2-5.8-5.6-.6-11.4,12,10.8Z"/>
+</svg>

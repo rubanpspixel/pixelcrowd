@@ -40,3 +40,13 @@ body{ //background: var(--background)
     @include font_regular();
 
  }
+
+ #root{ display: flex;justify-content: space-between; flex-direction: column; height: 100vh;}
+.socaillinks{
+    a{ color: #000; letter-spacing: 2px; font-size:15px; text-transform: uppercase; font-weight:500; margin-right: 25px;}
+ }
+
+ header{ margin-top: 20px;}
+ footer{ margin-bottom: 20px;}
+ 
+
