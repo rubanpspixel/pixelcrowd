@@ -11,7 +11,7 @@ function App() {
        <main>
         <Herobanner />
        </main>
-      <Footer />
+       <Footer />
     </>
   )
 }
