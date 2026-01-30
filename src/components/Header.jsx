@@ -6,6 +6,7 @@ export default function Header() {
       <div className="container">   
           <div className="grid">
               <h2 className="logo">Pixelcrowd</h2>
+              <a href='mailto:pixelcrowd.in@gmail.com' className='contactBtn'>CONTACT</a>
               
               {/* <nav className="nav">
               <a href="#about">About</a>
